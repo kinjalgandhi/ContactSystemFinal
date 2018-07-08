@@ -1,6 +1,6 @@
 Skip to content
  
-Search or jump to…
+Search or jump toâ€¦
 
 Pull requests
 Issues
@@ -85,7 +85,7 @@ IF Id not in system : HttpStatusCode for "Not Found" code will be in response.
 
 Delete sucessfully : HttpStatusCode for "Ok" code will be in response.
 
-© 2018 GitHub, Inc.
+Â© 2018 GitHub, Inc.
 Terms
 Privacy
 Security
