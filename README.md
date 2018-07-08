@@ -22,7 +22,7 @@ http://localhost:50083/api/contact
 
 Method Type : GET
 
-http://localhost:50083/api/contact/3
+http://localhost:50083/api/contact/1
 
 3)Add Contact
 
@@ -48,7 +48,7 @@ http://localhost:50083/api/contact
 
 Below is the format of Contact object JSON string to input
 
-{ "Id":"3", "FirstName": "Nirav", "LastName": "Gandhi", "Email": "Ross.Weaver@hotmail.com", "PhoneNumber": "0001 111 222", "Status": true }
+{ "Id":"3", "FirstName": "Nirav Renamed", "LastName": "Gandhi", "Email": "Nirav.Gandhi@hotmail.com", "PhoneNumber": "0001 111 222", "Status": true }
 
 IF Id/First Name/Email not passed : HttpStatusCode for "Bad Request" code will be in response.
 
