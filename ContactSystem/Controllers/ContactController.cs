@@ -103,6 +103,7 @@ namespace ContactSystem.Controllers
                     if (contactModel.IsEmailAlreadyExist(email, contactModel.Id))
                     {
                         httpResponseMessage = Request.CreateResponse(HttpStatusCode.Conflict, "Email ID exist.");
+                        return httpResponseMessage;
                     }
 
 
